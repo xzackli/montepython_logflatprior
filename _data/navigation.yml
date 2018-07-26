@@ -1,0 +1,26 @@
+main:
+  - title: "Neutrino Mass Forecasts"
+    url: /neutrino_mass_forecasts/
+
+neutrino-mass-navigation:
+  - title: Experiments
+    children:
+      - title: "CMB"
+        url: /neutrino_mass_forecasts/CMB/
+      - title: "LSS"
+        url: /neutrino_mass_forecasts/LSS/
+
+  - title: Parameters
+    children:
+      - title: "omega_cdm"
+        url: /neutrino_mass_forecasts/omega_cdm/
+      - title: "H0"
+        url: /neutrino_mass_forecasts/H0/
+      - title: "Mnu"
+        url: /neutrino_mass_forecasts/Mnu/
+      - title: "Neff"
+        url: /neutrino_mass_forecasts/Neff/
+      - title: "w0"
+        url: /neutrino_mass_forecasts/w0/
+      - title: "wa"
+        url: /neutrino_mass_forecasts/wa/
