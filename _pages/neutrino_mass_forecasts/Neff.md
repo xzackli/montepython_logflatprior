@@ -12,7 +12,7 @@ gallery:
     image_path: /assets/neutrino_mass_forecasts/pngs/Mnu_grid_full-yrange_logy_Neff.png
     title: "LSS"
 ---
-These figures are supplementary to Brinckmann, Hooper, et.al. (2018) [1807.XXXXX](https://arxiv.org/abs/1807.XXXXX). These figures may be used provided you cite this publication. 
+These figures are supplementary to Brinckmann, Hooper, et. al (2018) [1808.XXXXX](https://arxiv.org/abs/1808.XXXXX). These figures may be used provided you cite this publication. 
 
 {% include gallery id="gallery" %}
 

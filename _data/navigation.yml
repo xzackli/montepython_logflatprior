@@ -14,6 +14,20 @@ neutrino-mass-navigation:
     children:
       - title: "omega_cdm"
         url: /neutrino_mass_forecasts/omega_cdm/
+      - title: "omega_b"
+        url: /neutrino_mass_forecasts/omega_b/
+      - title: "theta_s"
+        url: /neutrino_mass_forecasts/theta_s/
+      - title: "A_s"
+        url: /neutrino_mass_forecasts/A_s/
+      - title: "n_s"
+        url: /neutrino_mass_forecasts/n_s/
+      - title: "tau_reio"
+        url: /neutrino_mass_forecasts/tau_reio/
+      - title: "Omega_m"
+        url: /neutrino_mass_forecasts/Omega_m/
+      - title: "sigma8"
+        url: /neutrino_mass_forecasts/sigma8/
       - title: "H0"
         url: /neutrino_mass_forecasts/H0/
       - title: "Mnu"
