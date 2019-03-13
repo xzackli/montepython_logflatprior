@@ -1,4 +1,10 @@
-fork of https://github.com/brinckmann/montepython_public with a logflat prior
+Fork of https://github.com/brinckmann/montepython_public with a logflat prior. Use as
+
+```
+data.parameters['sigma_dmeff'] = [1e-28, 1.e-30, 1e-18, 1e-20,	1, 'cosmo', 'logflat']
+```
+
+----
 
 ===========================================================
 Monte Python, a Monte Carlo Markov Chain code (with Class!)
