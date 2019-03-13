@@ -69,17 +69,19 @@ class Prior(object):
 
         if self.prior_type == 'flat':
             return rd.uniform(self.prior_range[0], self.prior_range[1])
-
+        elif self.prior_type == 'logflat':
+            log0, log1 = np.log10(self.prior_range[0]), np.log10(self.prior_range[1])
+            return 10**rd.uniform(log0, log1)
         elif self.prior_type == 'gaussian':
             within_bounds = False
 
             while not within_bounds:
                 value = rd.gauss(self.mu, self.sigma)
                 # Check for boundaries problem
-                within_bounds = calue_within_prior_range(value)
+                within_bounds = self.value_within_prior_range(value)
 
             return value
-                
+
     def value_within_prior_range(self, value):
         """
         Check for a value being in or outside the prior range
@@ -112,5 +114,5 @@ class Prior(object):
         which should have been previously checked with :func:`is_bound`
 
         """
-        return (self.prior_range[0] + 
+        return (self.prior_range[0] +
                 value * (self.prior_range[1] - self.prior_range[0]))
