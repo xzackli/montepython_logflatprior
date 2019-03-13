@@ -1,3 +1,5 @@
+fork of https://github.com/brinckmann/montepython_public with a logflat prior
+
 ===========================================================
 Monte Python, a Monte Carlo Markov Chain code (with Class!)
 ===========================================================
